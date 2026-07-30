@@ -1,0 +1,75 @@
+```
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+
+# Dependencies
+packages/
+node_modules/
+bower_components/
+jspm_packages/
+*.egg-info/
+
+# Logs
+*.log
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+*.userprefs
+*.suo
+*.user
+*.aps
+*.ncb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.wrn
+*.xml
+*.cache
+*.pidb
+*.userprefs
+
+# Environment specific
+.env
+.env.local
+.env.*
+!*.env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Distribution / packaging
+dist/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+```
